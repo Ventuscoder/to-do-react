@@ -2,7 +2,7 @@ import React from "react";
 import { useState } from "react";
 
 export function TodoList() {
-    [todos, setTodos] = useState([]);
+    let [todos, setTodos] = useState([]);
     return (
         <div>
             <div className="add-menu">
